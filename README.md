@@ -3,6 +3,8 @@ I made it as I was very annoyed at the lack of proper support by many distro and
 
 ### HOW TO RUN IT
 
+Install keyd
+
 Download and unzip the program wherever you want it
 
 Edit the `keyd_sticky_keys.sh` file in a text editor and adjust the two variables to your liking
