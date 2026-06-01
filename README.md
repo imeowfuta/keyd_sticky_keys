@@ -1,6 +1,8 @@
 A sticky keys tool that is (in theory) desktop environment agnostic and works on both wayland and x11
 I made it as I was very annoyed at the lack of proper support by many distro and environments for this essential accessibility feature
 
+![screenshot showing program displaying held keys and notifications](screenshot.gif)
+
 ### HOW TO RUN IT
 
 Install keyd
