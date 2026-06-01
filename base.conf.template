@@ -1,0 +1,6 @@
+[ids]
+*
+
+[main]
+
+PLACEHOLDERKEY = command(yes | cp /etc/keyd/sticky /etc/keyd/default.conf; keyd reload; runuser -u PLACEHOLDERUSER -- notify-send "STICKEY ON 🟢"; echo "ON!" | tee /tmp/stickycurrentstate )

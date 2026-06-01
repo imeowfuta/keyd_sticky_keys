@@ -1,0 +1,24 @@
+[ids]
+*
+
+[main]
+
+PLACEHOLDERKEY = command(yes | cp /etc/keyd/base /etc/keyd/default.conf; keyd reload; runuser -u PLACEHOLDERUSER -- notify-send "STICKEY OFF ⚫️"; echo "OFF" | tee /tmp/stickycurrentstate )
+
+# Sticky keys enabled - oneshot modifiers
+control = oneshot(control)
+meta = oneshot(meta)
+shift = oneshot(shift)
+leftalt = oneshot(alt)
+
+[control]
+control = toggle(control)
+
+[meta]
+meta = toggle(meta)
+
+[shift]
+shift = toggle(shift)
+
+[alt]
+leftalt = toggle(alt)
