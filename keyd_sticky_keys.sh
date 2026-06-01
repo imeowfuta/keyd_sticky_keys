@@ -6,7 +6,7 @@
 # for a single key no newline is required for example a sole g would just be:  $"g"
 # for a combo use the format [MODIFIER]\nKEY for example shift+p would be:  $"[shift]\np"
 # note that any combo keys will be stickied initially
-hotkey=$"0"
+hotkey=$"[meta]\n0"
 
 # a blacklist of terms you do not want to see displayed
 # "main" should always be included by default
